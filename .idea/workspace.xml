@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87a39c1-6595-4e5d-a4d8-c97f5a6f5ea5" name="Changes" comment="new project">
+    <list default="true" id="b87a39c1-6595-4e5d-a4d8-c97f5a6f5ea5" name="Changes" comment="13-04-2024">
+      <change afterPath="$PROJECT_DIR$/code/playwrigh_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/test_lab001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Playwright_Project_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Playwright_Project_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwrigh_test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_context_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test_context_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,44 +29,59 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VivekChandraa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VivekChandraa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VivekChandraa/Playwright_Project_1.git",
-    "accountId": "9ef21078-feb2-4132-be53-d334b850e3b8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VivekChandraa/Playwright_Project_1.git&quot;,
+    &quot;accountId&quot;: &quot;9ef21078-feb2-4132-be53-d334b850e3b8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ed4wq5SdVpSCqFVjEtGd5Tx6ok" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for lab001.test_example.executor": "Run",
     "Python tests.Python tests for main.test_vwo.executor": "Run",
     "Python tests.Python tests for test.test_vwo.executor": "Run",
+    "Python tests.Python tests for test_context_page.test_example.executor": "Run",
+    "Python tests.Python tests for test_lab001.test_example.executor": "Run",
+    "Python tests.Python tests for test_lab001.test_vwo.executor": "Run",
     "Python tests.Python tests in main.py.executor": "Run",
     "Python tests.Python tests in test_context_page.py.executor": "Run",
+    "Python tests.Python tests in test_lab001.py.executor": "Run",
+    "Python.lab001.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.playwrigh_test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/USGSITS/PycharmProjects/Playwright_Project_1"
+    "last_opened_file_path": "C:/Users/USGSITS/PycharmProjects/Playwright_Project_1",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_vwo">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USGSITS\PycharmProjects\Playwright_Project_1\code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_lab001.test_cau">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Playwright_Project_1" />
       <option name="ENV_FILES" value="" />
@@ -82,72 +104,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for main.test_vwo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_context_page.test_example" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Project_1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main.test_vwo&quot;" />
+      <option name="_new_target" value="&quot;test_context_page.test_example&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_vwo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lab001.test_cau" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Project_1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_vwo&quot;" />
+      <option name="_new_target" value="&quot;test_lab001.test_cau&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lab001.test_example" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Project_1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/main.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_lab001.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_context_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_lab001.test_vwo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Playwright_Project_1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_context_page.py&quot;" />
+      <option name="_new_target" value="&quot;test_lab001.test_vwo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_lab001.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Playwright_Project_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/code/test_lab001.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.test_vwo" />
-        <item itemvalue="Python tests.Python tests in test_context_page.py" />
-        <item itemvalue="Python tests.Python tests in main.py" />
-        <item itemvalue="Python tests.Python tests for main.test_vwo" />
+        <item itemvalue="Python tests.Python tests for test_lab001.test_cau" />
+        <item itemvalue="Python tests.Python tests for test_context_page.test_example" />
+        <item itemvalue="Python tests.Python tests for test_lab001.test_vwo" />
+        <item itemvalue="Python tests.Python tests for test_lab001.test_example" />
+        <item itemvalue="Python tests.Python tests in test_lab001.py" />
       </list>
     </recent_temporary>
   </component>
@@ -175,11 +213,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712305606036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="13-04-2024">
+      <option name="closed" value="true" />
+      <created>1713003236953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713003236953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="13-04-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-04-2024" />
   </component>
 </project>
